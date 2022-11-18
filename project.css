@@ -1,0 +1,133 @@
+body{
+    background-color:black;
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    border: 3px solid blueviolet;
+    height: 40px;
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.home{
+    top: 0;
+    position:fixed;
+    border:1px solid blueviolet;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+}
+.home a{
+    padding:0px 7.5px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+}
+.home a:hover{
+color: blueviolet;
+}
+.home a:active{
+    font-size:25px;
+    color: blueviolet;
+    }
+.img{
+width: 250px;
+border: 9px solid blueviolet;
+border-radius: 50%;
+}
+
+.container{
+    display: inline-block;
+
+  }
+  .typed-out{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: 
+      typing 10s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .hi{
+    width:100px;
+  }
+  .ab{
+    width:200px;
+  }
+  table,td,tr{
+    padding: 20px;
+    border: 3px solid blueviolet;
+    border-radius: 10%;
+  }
+  
+  tr{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+hr{
+    height: 5px;
+    background: blueviolet;
+    width:600px ;
+}
+.sk{
+    width: 200px;
+}
+li{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: aliceblue;
+    padding-top: 15px;
+}
+progress{
+    width:300px ;
+    height:25px;
+}
+h3{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: aliceblue; 
+        font-size:40px;  
+}
+h4{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue; 
+}
+#c1{
+    text-decoration: none;
+    color: aliceblue;
+}
+#c1:hover{
+    
+    color: blueviolet;
+}
+#soc{ 
+    background-color: blueviolet;
+    border: 3px solid white;
+    height:110px ;
+    width:500px ;
+    border-radius: 25px;
+}
+#social{
+    padding:50px 0px 0px 20px ;
+}
+#social:hover{
+    width: 70px;
+}
+
