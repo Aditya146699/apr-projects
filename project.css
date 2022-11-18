@@ -80,6 +80,7 @@ border-radius: 50%;
 hr{
     height: 5px;
     background: blueviolet;
+    width: 350px;
 }
 .sk{
     width: 200px;
@@ -120,13 +121,13 @@ h4{
     background-color: blueviolet;
     border: 3px solid white;
     height:110px ;
-    width:500px ;
+    width:300px ;
     border-radius: 25px;
 }
 #social{
     padding:50px 0px 0px 20px ;
 }
 #social:hover{
-    width: 70px;
+    width: 40px;
 }
 
