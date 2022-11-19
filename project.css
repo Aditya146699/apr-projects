@@ -33,8 +33,10 @@ h1{
 color: blueviolet;
 }
 .home a:active{
-    font-size:25px;
-    color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 20px;
     }
 .img{
 width: 250px;
