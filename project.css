@@ -33,7 +33,6 @@ h1{
   text-decoration: none;
   font-weight: bold;
   color: aliceblue;
- 
 }
 .home a:hover{
 color: blueviolet;
@@ -44,6 +43,9 @@ color: blueviolet;
   background-color: blueviolet;
   border-radius: 20px;
   }
+#home{
+  color: blueviolet ;
+}
 .img{
 width: 250px;
 border: 9px solid blueviolet;
