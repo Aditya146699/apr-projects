@@ -154,3 +154,22 @@ h4{
 #social:hover{
   width: 40px;
 }
+
+
+@media (min-width:650px){
+  
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+    border: 1px solid blueviolet;
+    background-color:black;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+  }
+
+}
