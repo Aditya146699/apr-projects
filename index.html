@@ -1,175 +1,117 @@
-html{
-  scroll-behavior:smooth;
-}
-body{
-  background-color:black;
-}
-h1{
-  text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: black;
-  border: 3px solid blueviolet;
-  height: 40px;
-  width: 250px;
-  background-color: antiquewhite;
-  border-radius: 20px;
-}
-.home{
-  top: 0;
-  position: sticky;
-  border:3px solid blueviolet;
-  border-radius:20px;
-  padding: 10px;
-  overflow: hidden;
-  background-color: black; 
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.home a{
-  padding:0px 7.5px 0px;
-  font-family:Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  color: aliceblue; 
-}
-.home a:hover{
-color: blueviolet;
-}
-#home{
-  color: blueviolet ;
-}
-.home a:active{
-  color: white;
-  border: 1px solid blueviolet;
-  background-color: blueviolet;
-  border-radius: 20px;
-  }
-.img{
-width: 250px;
-border: 9px solid blueviolet;
-border-radius: 50%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>APR Portfolio</title>
+</head>
+<body>
 
-.container{
-  display: inline-block;
+  <div class="home">
+    <a href="#home1" id="home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skill">Skills</a>
+    <a href="#contact">Contacts</a>
+    <a href="">More</a>
+   </div>
 
-}
-.typed-out{
-  color: aliceblue;
-  font-family:Arial, Helvetica, sans-serif;
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: 
-    typing 10s forwards;
-  font-size: 1.6rem;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-.hi{
-  width:100px;
-}
-.ab{
-  width:200px;
-}
-table,tr,td{
-  padding: 20px;
-  border: 3px solid blueviolet;
-  border-radius: 20px;
-}
+<center>  
+<div class="apr">
+    <center>
+    <p id="home1"></p>
+       <br><br>
+     <h1 class="pro" >
+        portfolio
+    </h1>
+   <img src="CC_20221108_195920.png" alt="sorry" class="img">
+</center>
+<center>
+    <img src="hi.webp" alt="sorry" class="hi">
+    <br>
+    <div class="container">
+    <pre class="typed-out">
+      Hello! I'm Aditya  
+    </pre>
+</div>
+</center>
+<br><hr id="about"><br>
+   <center>
+    <img src="about.gif" alt="sorry" class="ab">  
+    <br>  <br>  
+    <table>
+      <tr>
+        <td>Name:</td>
+        <td>Aditya Prashant Rathod</td>
+      </tr>
+      <tr>
+        <td>Age:</td>
+        <td>19 years</td>
+      </tr>
+      <tr>
+        <td>Profession:</td>
+        <td class="in">CSE
+          <div class="out">Computer Science Engineering</div>
+        </td>
+      </tr>
+      <tr>
+        <td>College:</td>
+        <td class="in">AEC
+          <div class="out">Anuradha Engineering College</div>
+        </td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td>Chikhli</td>
+      </tr>
+    </table>
+    </center>
+<br><br><br>
+ <center>
+  <hr id="skill">
+    <br><br><br>
+<img src="skill.gif" alt="sorry" class="sk">
+  <br><br>
+  <div class="prog">
+    <ul>
+        <li>C(80%)        <br> <progress value="80" max="100"></progress></li>
+        <li>C++(80%)     <br>  <progress value="80" max="100"></progress></li>
+        <li>JAVA(20%)    <br>  <progress value="20" max="100"></progress></li>
+        <li>PYTHON(30%)  <br>  <progress value="30" max="100"></progress></li>
+        <li>JAVA SRIPT(5%) <br> <progress value="5" max="100"></progress></li>
+        <li>HTML(98%)   <br>   <progress value="98" max="100"></progress></li>
+        <li>CSS(75%)     <br>  <progress value="75" max="100"></progress></li>
+        <li>LINUX(55%)   <br>  <progress value="55" max="100"></progress></li>
+    </ul>
+  </div>
+  </center>
+  <br><br><br><hr>
+  <center>
+    <h3 id="contact">☎ContactS</h3>
+    <footer>
 
-tr{
-  color: aliceblue;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-.out{
-  visibility: hidden;
-  border: 3px solid blueviolet;
-  background-color: black;
-  color: aliceblue;
-  padding:0px 10px 0px;
-  font-family:Arial, Helvetica, sans-serif;
-  border-radius:20px;
-  display: inline-block;
-  bottom: 100%;
-}
-.in:hover .out{
-  visibility:visible;
-}
-hr{
-  height: 5px;
-  background: blueviolet;
-  width: 350px;
-}
-.sk{
-  width: 200px;
-}
-li{
-  text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  list-style-type: none;
-  color: aliceblue;
-  padding-top: 15px;
-}
-progress{
-  width:300px ;
-  height:25px;
-}
-h3{
-      text-align: center;
-      font-family:Arial, Helvetica, sans-serif;
-      text-transform: uppercase;
-      color: aliceblue; 
-      font-size:40px;  
-}
-h4{
-  text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  color: aliceblue; 
-}
-#c1{
-  text-decoration: none;
-  color: aliceblue;
-}
-#c1:hover{
-  
-  color: blueviolet;
-}
-#soc{ 
-  background-color: black;
-  border: none;
-  height:110px ;
-  width:300px ;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-#social:hover{
-  width: 40px;
-}
+      <h4>Phone no:: +91<a href="tel:+919359409686" id="c1">9359409686</a></h4>
+    <h4>Email: <a href="mailto:adityarathod1425@gmail.com" id="c1">adityarathod1425@gmail.com</a></h4>
 
-
-@media (min-width:650px){
-  
-  ::-webkit-scrollbar{
-    width: 15px;
-  }
-  ::-webkit-scrollbar-track{
-    border: 1px solid blueviolet;
-    background-color:black;
-    border-radius: 20px;
-  }
-  ::-webkit-scrollbar-thumb{
-    background-color: blueviolet;
-    border: none;
-    border-radius: 20px;
-  }
-
-}
+        <div id="soc">
+         <a href="http://wa.me/+919359409686">
+            <img src="icons8-whatsapp-48.png" id="social">
+         </a>
+         <a href="">
+            <img src="icons8-telegram-app-48.png" id="social">
+         </a>
+         <a href="https://www.instagram.com/aditya140908/">
+            <img src="icons8-instagram-48.png" id="social">
+         </a>
+         <a href="https://github.com/Aditya146699">
+            <img src="icons8-github-48.png" id="social">
+         </a>
+        </div>
+    </footer>
+  </center>
+<br><br><br><br>
+</div>
+</center> 
+</body>
+</html>
